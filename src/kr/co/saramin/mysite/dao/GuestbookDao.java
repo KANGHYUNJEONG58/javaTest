@@ -48,7 +48,6 @@ public class GuestbookDao {
 				vo.setNo(no);
 				vo.setReg_dt(reg_dt);
 				
-				list = vo;
 			}
 			
 			

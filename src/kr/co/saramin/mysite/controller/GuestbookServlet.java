@@ -20,9 +20,10 @@ public class GuestbookServlet extends HttpServlet {
 		String actionName = request.getParameter("a");
 		
 		if ("add".equals(actionName)){
-			
+			System.out.println("doGet Call a=add");
 		} else {
 			/* defalut action = list*/
+			System.out.println("doGet Call a=*");
 		}
 	}
 
